@@ -19,9 +19,10 @@ app.register(deleteVehicleRoute, {prefix: "vehicle"})
 app.register(getAllRecordsRoute, {prefix: "record"})
 app.register(createRecordRoute, {prefix: "record"})
 
+const port = process.env.PORT || 3333;
 
 app.listen({
-  port: 3333,
+  port: Number(port),
 }).then(() => {
   console.log('HTTP server Running')
 })
