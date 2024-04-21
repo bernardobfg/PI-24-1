@@ -12,6 +12,7 @@
     "typescript": "^5.4.5"
   },
   "scripts": {
-    "dev": "tsx watch src/server.ts"
+    "dev": "tsx watch src/server.ts",
+    "start": "tsx  src/server.ts"
   }
 }
