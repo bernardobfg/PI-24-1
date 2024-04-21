@@ -24,5 +24,5 @@ const port = process.env.PORT || 3333;
 app.listen({
   port: Number(port),
 }).then(() => {
-  console.log('HTTP server Running')
+  console.log(`HTTP server Running on ${port}`)
 })

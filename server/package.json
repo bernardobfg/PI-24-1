@@ -12,7 +12,8 @@
     "typescript": "^5.4.5"
   },
   "scripts": {
+    "build": "tsc",
     "dev": "tsx watch src/server.ts",
-    "start": "tsx  src/server.ts"
+    "start": "node  dist/server.js"
   }
 }
