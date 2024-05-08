@@ -6,6 +6,9 @@ export async function getAllRecordsRoute(app: FastifyInstance){
     return await prisma.record.findMany({
       include: {
         vehicle: true
+      },
+      orderBy: {
+        registeredAt: 'desc'
       }
     })
 
