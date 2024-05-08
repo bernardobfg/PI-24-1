@@ -31,7 +31,7 @@ ___
 
 | Método | rota |Descrição 
 |---|---| --- | 
-| `DELETE` | vehicle/_<id> | Deletar um veiculo dado ID
+| `DELETE` | vehicle/_<id_> | Deletar um veiculo dado ID
 
 ___
 
